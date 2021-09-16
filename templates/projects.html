@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <title>My Projects</title>
+ </head>
+ <body>
+  {% extends "template.html" %}
+  {% block content %}
+
+  <div class="center">
+   <h2>My Projects</h2>
+   <div>
+    <p><a href="https://github.com/GrahamM98/Chord_Recognition" target="_blank"><b>Chord Recogntion</b></a></p>
+    <p class="center desc">This is a project I undertook with three other people in an introductory class on artificial intelligence in college.  It is a simple implementation of two different neural networks, one that pairs frequencies with note names, as well as one which pairs collections of three notes to chord types.</p>
+   </div>
+   <br/>
+   <div>
+    <p><a href="https://github.com/GrahamM98/NotAFunGuy" target="_blank"><b>Not A Fun Guy</b></a></p>
+    <p class="center desc">This is a game made by me and four others using the unity game engine.  The scripting was written using c#, as per the norm for games in unity.</p>
+   </div>
+   <div>
+    <p><a href="https://mgraham-blackjack.netlify.app" target="_blank"><b>Blackjack</b></a></p>
+    <p class="center desc">This is the game of Blackjack I wrote to test out using ReaactJS.</p>
+   </div>
+  </div>
+
+  {% endblock %}
+ </body>
+</html

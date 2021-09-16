@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+  <meta charset="utf-8">
+  <title>About Me</title>
+ </head>
+ <body>
+  {% extends "template.html" %}
+  {% block content %}
+
+  <div class="center">
+   <h2>Welcome to My Website</h2>
+   <img src="/static/images/filler.jpg" alt="My picture" title="Michael Graham" class="center">
+   <h2>About Me</h2>
+   <div>
+    <p class="desc center">I am a graduate from the University of Texas at San Antonio, where I studied computer science with a concentration in data science. My studies have made me familiar with the Java, C, and Python languages, as well as made me adaptable to learning new languages. I have also learned how to apply these languages in the field of artificial intelligence to implement artificial neural networks (both using tensorflow and with a manual back-propagation), as well as genetic algorithms.</p>
+   </div>
+  </div>
+
+  {% endblock %}
+ </body>
+</html>
